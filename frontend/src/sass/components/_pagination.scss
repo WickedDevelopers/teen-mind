@@ -1,0 +1,24 @@
+.pagination {
+   &__number {
+      display: inline-block;
+      font-size: 1.6rem;
+      padding: 1rem;
+      color: $color-primary;
+      border: 0.1rem solid $color-primary;
+      cursor: pointer;
+      margin: 0.1rem;
+      -ms-user-select: none;
+      -webkit-user-select: none;
+      user-select: none;
+
+      &--active {
+         color: $color-white;
+         background-color: $color-primary;
+      }
+
+      &:hover {
+         color: $color-white;
+         background-color: $color-primary;
+      }
+   }
+}
